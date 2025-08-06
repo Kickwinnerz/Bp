@@ -127,7 +127,7 @@ github = 'https://www.facebook.com/profile.php?id=61553924229187'
 yt = 'https://www.facebook.com/profile.php?id=61553924229187'
 web = 'https://www.facebook.com/profile.php?id=61553924229187'
 author = 'DEVI '
-sys.stdout.write('\x1b]2;DEVI')
+
 
 def clear():
     os.system('clear')
@@ -801,5 +801,6 @@ def login(uid):
 if __name__ == '__main__':
     Get_Data().get()
     return None
+
 
 
