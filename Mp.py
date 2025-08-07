@@ -403,24 +403,6 @@ def email_cloning():
         passwordemail()
         return None
 
-
-def number_cloning():
-    os.system('clear')
-    print(logo)
-    print('\x1b[0mFor Example :\x1b[0m 92310,92342,92300,92301 ...')
-    kode = input('\x1b[0mChoose Code : \x1b[0m')
-    print('\x1b[0mFor Example :\x1b[0m 2000,4000,6000 ...')
-    limit = int(input('\x1b[0mIdz Limit : \x1b[0m'))
-    for nmbr in range(limit):
-        nmp = (lambda .0: for _ in .0:
-random.choice(string.digits)None)(range(7)())
-        xoo = kode + nmp.replace(' ', '')
-        xdr = f'''{kode + nmp}|{nmp} {xoo}\n'''
-        id.append(xdr)
-        passwordnum(xoo)
-        return None
-
-
 def passwordnum(xoo):
     os.system('clear')
     print(logo)
@@ -760,5 +742,6 @@ def login(uid):
 if __name__ == '__main__':
     Get_Data().get()
     return None
+
 
 
